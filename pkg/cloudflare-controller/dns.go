@@ -8,7 +8,7 @@ import (
 	"github.com/cloudflare/cloudflare-go"
 )
 
-const ManagedCNAMERecordCommentMarkFormat = "managed by strrl.dev/cloudflare-tunnel-ingress-controller, tunnel [%s]"
+const ManagedCNAMERecordCommentMarkFormat = "managed by cloudflare-tunnel-ingress-controller"
 
 type DNSOperationCreate struct {
 	Hostname string
